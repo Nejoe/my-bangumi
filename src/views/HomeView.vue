@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { onBeforeMount } from "vue";
+import { onBeforeMount, ref } from "vue";
 onBeforeMount(() => {});
+const text = ref<string>("");
 </script>
 
 <template>
@@ -17,4 +18,5 @@ onBeforeMount(() => {});
   <div class="bg-secondary-lighten-1">secondary</div>
   <div class="bg-secondary">secondary</div>
   <div class="bg-secondary-darken-1">secondary</div>
+  <v-md-editor v-model="text" height="400px"></v-md-editor>
 </template>

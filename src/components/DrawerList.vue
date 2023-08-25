@@ -56,7 +56,7 @@ const goTo = (path: string) => {
       v-for="item in items"
       :key="item.value"
       :value="item.value"
-      active-color="primary"
+      color="primary"
       @click="goTo(item.value)"
     >
       <template v-slot:prepend>

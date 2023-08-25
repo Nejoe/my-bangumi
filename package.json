@@ -11,6 +11,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@kangc/v-md-editor": "^2.3.17",
     "pinia": "^2.0.26",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6",
@@ -20,7 +21,9 @@
   "devDependencies": {
     "@mdi/font": "^7.0.96",
     "@rushstack/eslint-patch": "^1.1.4",
+    "@types/codemirror": "^5.60.9",
     "@types/node": "^18.11.9",
+    "@types/prismjs": "^1.26.0",
     "@types/webfontloader": "^1.6.35",
     "@vitejs/plugin-vue": "^3.2.0",
     "@vitejs/plugin-vue-jsx": "^2.1.1",
